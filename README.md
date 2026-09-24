@@ -6,7 +6,7 @@ This release is an archive viewer: it does not receive a live television broadca
 
 ## Install
 
-1. In the **Releases** tab, download **Teletext_20260924.rbf**. The matching **Teletext_20260924-source.zip** is available beside it.
+1. In the **Releases** tab, download **Teletext_20260925.rbf**. The matching **Teletext_20260925-source.zip** is available beside it.
 2. Copy the RBF to the **_Utility** folder on your MiSTer SD card.
 3. Create a folder named **Teletext** at the root of the SD card. Download a restored T42 page from the [Teletext Restoration archive](https://github.com/teletext-restoration/teletext-restoration), or use the converter in the source ZIP to build a dated TTS capture from T42 pages you have downloaded. Put your T42 or TTS files in **Teletext**.
 4. Launch the Teletext core from MiSTer. Open its menu and choose **Load dated snapshot** for a TTS file or **Load one Teletext page** for a T42 file. Close the menu to view the page.
