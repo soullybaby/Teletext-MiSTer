@@ -46,7 +46,7 @@ Many surviving UK pages have been recovered from old VHS home recordings. Althou
 
 ## Scope and credits
 
-This Level 1 viewer handles ordinary text, coloured graphics, Fastext links when their targets are in the current TTS snapshot, concealed text, flash and several background/graphics controls. It does not yet reproduce all Teletext features, including double-height characters, original page headers and real broadcast acquisition timing.
+This viewer handles ordinary text, coloured graphics, Fastext links when their targets are in the current TTS snapshot, concealed text, double-height text, flash and several background/graphics controls.
 
 This release includes the compiled core and **its corresponding source as a separate download** on the same GitHub release. See [LICENSE](LICENSE) and [CREDITS.md](CREDITS.md) for upstream attribution, component notices and licensing details. Teletext page content belongs to its respective rights holders and is not covered by the core's source licence.
 
