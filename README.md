@@ -33,18 +33,13 @@ On MiSTer, map the controller under **Define Teletext buttons** if its buttons d
 ![Teletext Screenshot](MiSTer_Screenshot_20260924-210459.png)
 ![Teletext Screenshot](MiSTer_Screenshot_20260924-210602.png)
 
-
-## Try a page
-
-Download a restored `.t42` page from the archive below and open it with **Load one Teletext page**. A single T42 contains only one page; for navigation between pages, assemble several pages from the same date into a TTS capture using the source ZIP's `tools/build_snapshot.py`. The supplied converter has command-line help: `python3 tools/build_snapshot.py --help`.
-
 ## What is Teletext?
 
 Teletext was a text and graphics information service carried in television broadcasts. Viewers could enter a three-digit page number to browse news, sport, listings and games on a compatible TV. Later services added four coloured Fastext buttons to jump to suggested pages. Some pages concealed answers or jokes until the viewer pressed Reveal.
 
 Many surviving UK pages have been recovered from old VHS home recordings. Although the recordings captured ordinary TV programmes, they also preserved some Teletext data sent alongside the picture. Volunteers extracted and restored that data. A tape captures only the pages transmitted while it was recording, sometimes with missing or corrupted data. Each recovered date is therefore a **partial snapshot of that service at that time**, rather than a complete historical edition or a live feed.
 
-## Find more pages
+## Download restored Teletext files
 
 - **[Teletext Restoration archive](https://github.com/teletext-restoration/teletext-restoration)** — restored UK pages organised by year, date and channel. Download individual files from the **restored** directories; those are **T42** files. The archive also contains raw recovery data that may contain errors.
 - **TTS snapshots** can be built locally from T42 pages for one date using `tools/build_snapshot.py` in the source asset. TTS is this core's indexed snapshot format, bundling up to 31 page/subpage images. The linked archive distributes T42, not TTS.
