@@ -11,8 +11,6 @@ The release has been tested on a SuperStation One. It is an archive viewer: it d
 3. Create a folder named **Teletext** at the root of the SD card. Download a restored T42 page from the [Teletext Restoration archive](https://github.com/teletext-restoration/teletext-restoration), or use the converter in the source ZIP to build a dated TTS capture from T42 pages you have downloaded. Put your T42 or TTS files in **Teletext**.
 4. Launch the Teletext core from MiSTer. Open its menu and choose **Load dated snapshot** for a TTS file or **Load one Teletext page** for a T42 file. Close the menu to view the page.
 
-Keep the previous RBF if you are updating an installation. The data folder is **Teletext**, rather than the older **Teletext POC** folder.
-
 ## Navigate
 
 | Action | Keyboard | Controller |
