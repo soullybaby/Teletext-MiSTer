@@ -29,6 +29,11 @@ The selected Fastext label has a coloured underline. If a page number or link is
 
 On MiSTer, map the controller under **Define Teletext buttons** if its buttons do not match the table. The core's button order is Fastext select, Fastext mode, Subpage left, Subpage right, Reveal. MiSTer's defaults map these to A, B, L, R, X. Map D-pad directions in the same menu. Your controller must first be recognised by MiSTer's system-wide **Define joystick buttons** setup.
 
+## Screenshots
+![Teletext Screenshot](MiSTer_Screenshot_20260924-210459.png)
+![Teletext Screenshot](MiSTer_Screenshot_20260924-210602.png)
+
+
 ## Try a page
 
 Download a restored `.t42` page from the archive below and open it with **Load one Teletext page**. A single T42 contains only one page; for navigation between pages, assemble several pages from the same date into a TTS capture using the source ZIP's `tools/build_snapshot.py`. The supplied converter has command-line help: `python3 tools/build_snapshot.py --help`.
