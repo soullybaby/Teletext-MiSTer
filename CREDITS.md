@@ -1,0 +1,9 @@
+# Credits and licences
+
+- **MiSTer framework and template:** [MiSTer-devel/Template_MiSTer](https://github.com/MiSTer-devel/Template_MiSTer). The `sys/` framework and other template and Quartus project files in the source archive were copied or adapted from that project. Original notices remain in their files. The upstream template is GPL version 2 (with individual file notices where present). Our changes are indicated in the source files and README.
+- **Teletext font:** `rtl/saa5050_font.hex` was converted from `rtl/saa5050_char_rom.vhd` in [MiSTer-devel/BBCMicro_MiSTer](https://github.com/MiSTer-devel/BBCMicro_MiSTer). The converted data implements SAA5050 characters and graphics. Credit to the BBC Micro MiSTer contributors; see their repository for original provenance and notices.
+- **Intel/Altera generated components:** generated PLL and configuration files included with the MiSTer template retain Intel/Altera notices and any applicable proprietary terms in those individual files. The GPL notice for the surrounding project does not replace those notices.
+- **Archive and historical content:** [Teletext Restoration](https://github.com/teletext-restoration/teletext-restoration) and contributors recover and restore historical transmissions. Historical page text and graphics belong to their respective rights holders. No recovered broadcast pages are included in this public release.
+- **New core implementation and documentation:** developed with substantial assistance from OpenAI Codex/ChatGPT, under the maintainer's direction and tested by the maintainer on SuperStation One. The project's source distribution includes the GPL version 2 text in `LICENSE`.
+
+The binary and corresponding source are offered together in the same release. Please preserve all individual copyright and licence notices when redistributing source.
