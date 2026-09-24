@@ -41,11 +41,8 @@ Many surviving UK pages have been recovered from old VHS home recordings. Althou
 
 ## Download restored Teletext files
 
-- **[Teletext Restoration archive](https://github.com/teletext-restoration/teletext-restoration)** — restored UK pages organised by year, date and channel. Download individual files from the **restored** directories; those are **T42** files. The archive also contains raw recovery data that may contain errors.
-- **TTS snapshots** can be built locally from T42 pages for one date using `tools/build_snapshot.py` in the source asset. TTS is this core's indexed snapshot format, bundling up to 31 page/subpage images. The linked archive distributes T42, not TTS.
+- **[Teletext Restoration archive](https://github.com/teletext-restoration/teletext-restoration)** — restored UK pages organised by year, date and channel.
 - **[Teletext Archaeologist](https://teletextarchaeologist.org/the-archive/)** links to a browsable online archive for exploring pages before downloading restored files.
-
-To keep browsing manageable as your collection grows, put captures beneath the **Teletext** folder by channel and date, for example **Teletext/CH4/1997-03-19/**. Keep one TTS snapshot for a date beside a **Pages** folder for its individual T42 files.
 
 ## Scope and credits
 
