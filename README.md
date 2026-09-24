@@ -2,7 +2,7 @@
 
 Browse restored pages from the history of UK Teletext on MiSTer FPGA. This core opens individual T42 pages and small dated TTS snapshots, with keyboard and controller navigation, Fastext links and Reveal.
 
-The release has been tested on a SuperStation One. It is an archive viewer: it does not receive a live television broadcast.
+This release is an archive viewer: it does not receive a live television broadcast.
 
 ## Install
 
